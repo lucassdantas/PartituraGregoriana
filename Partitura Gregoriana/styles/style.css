@@ -15,7 +15,7 @@ body{
     grid-template-rows:10vh 80vh 10vh;
     grid-template-areas:
     "header header"
-    "main aside"
+    "aside main"
     "footer footer";
     color:white;
 
@@ -50,11 +50,12 @@ header{
     margin:0 5px;
 }
 main{
-    background-color:rgb(65, 65, 65);
+    background-color:rgb(92, 92, 92);
     grid-area:main;
 }
 aside{
-    background-color:rgb(92, 92, 92);
+    padding:0 5px;
+    background-color:rgb(65, 65, 65);
     grid-area:aside;
 }
 footer{

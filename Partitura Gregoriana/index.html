@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="div_logo">
-            <img src="./images/Logolucasdantas.png" alt="Logotipo"
+            <img id="logo" src="./images/Logolucasdantas.png" alt="Logotipo"
             >
         </div>
         <div class="navmenu">
@@ -36,11 +36,20 @@
                 class="accordion-header"
                 id="acordeao_aberto">
                     <button
-                    class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target=""
-                    aria-expanded="true"
-                    aria-controls="panel">Figuras</button>
+                        class="accordion-button"type="button" data-bs-toggle="collapse"
+                        data-bs-target="#figuras"
+                        aria-expanded="true"
+                        aria-controls="panel">Figuras
+                    </button>
                 </h3>
+                <div
+                    id="figuras" class="accordion-collapse collapse show" aria-labelledby="acordeao_aberto">
+                    <div
+                        class="accordion-body">
+                        <img src="./images/Logolucasdantas.png" id="logo" alt="figura">
+                    </div>
+
+                </div>
             </div>
         </div>
     </aside>
